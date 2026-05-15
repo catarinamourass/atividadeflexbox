@@ -1,0 +1,65 @@
+body {
+    background-color: cadetblue;
+}
+
+#container_ex5 {
+    background-color: antiquewhite;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center; todos os itens ficaram centralizados no pai e com quebra de texto (wrap)*/
+    /*justify-content: space-between; os itens são distribuidos igulmente no pai, enconstando na borda, e com quebra de texto (wrap)*/
+    align-content: center;
+
+}
+
+#container_ex5 .filho1 {
+    background-color: coral;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho2 {
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho3 {
+    background-color: brown;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho4 {
+    background-color: darkgreen;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho5 {
+    background-color: darkorchid;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho6 {
+    background-color: hotpink;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho7 {
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho8 {
+    background-color: chartreuse;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho9 {
+    background-color: darkgoldenrod;
+    width: 120px;
+    height: 120px;
+}
+#container_ex5 .filho10 {
+    background-color: maroon;
+    width: 120px;
+    height: 120px;
+}

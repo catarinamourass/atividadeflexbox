@@ -1,0 +1,66 @@
+body {
+    background-color: cadetblue;
+}
+
+#container_ex3 {
+    background-color: antiquewhite;
+    width: 400px;
+    display: flex;
+    /*justify-content: flex-start; deixa os itens alinhahos juntos da borda inicial (depende do flex direction)*/
+    /*justify-content: flex-end; deixa os itens alinhados juntos da borda final (depende do flex direction)*/
+    /*justify-content: center; deixa os itens alinhados no centro no espaço do pai*/
+    /*justify-content: space-between; os itens são distribuidos igualmente no espaço do pai (ficam juntos da borda)*/
+    /*justify-content: space-around; os itens são distribuidos com espaços iguais entre si, porem a distancia entre as bordas sao de 1 (não encostam na borda)*/
+    /*justify-content: space-evenly; os itens são distribuidos com espaços iguais entre si*/
+}
+
+#container_ex3 .filho1 {
+    background-color: chartreuse;
+    width: 60px;
+    height: 60px;
+}
+#container_ex3 .filho2 {
+    background-color: coral;
+    width: 60px;
+    height: 60px;
+}
+#container_ex3 .filho3 {
+    background-color: crimson;
+    width: 60px;
+    height: 60px;
+}
+#container_ex3 .filho4 {
+    background-color: dodgerblue;
+    width: 60px;
+    height: 60px;
+}
+
+
+
+
+#container_ex4 {
+    background-color: antiquewhite;
+    height: 300px;
+    display: flex;
+    /*align-items: stretch; estica os itens (nao deve ter altura nos itens) ocupando o pai decima ate embaixo*/
+    /*align-items: center; centraliza os itens na transversal*/
+    /*align-items: flex-start; os itens são posicionados no inicio do eixo tranversal*/
+    /*align-items: end; os itens são posicionados no fim do eixo transversal*/
+    /*align-items: baseline; alinha os itens respeitando suas tags*/
+
+}
+
+#container_ex4 .filho1 {
+    background-color: dodgerblue;
+    width: 60px;
+    
+}
+#container_ex4 .filho2 {
+    background-color: crimson;
+    width: 100px;
+    
+}
+#container_ex4 .filho3 {
+    background-color: darkorange;
+    width: 80px;
+}

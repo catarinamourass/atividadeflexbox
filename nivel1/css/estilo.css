@@ -1,0 +1,37 @@
+body {
+    background-color: burlywood; /*aplico outra cor no body para ver se o restante do css funciona*/
+}
+
+#container_ex1 {
+    background-color: antiquewhite;
+    display: flex;
+    width: 500px;
+    /*display: flex;  alinha os itens filhos na horizontal*/
+    /*flex-wrap: wrap; se os itens não couberem no pai, ele quebra para outra linha*/
+
+    /*flex-direction: column; os itens se alinham na vertical*/
+    /*flex-direction: column-reverse; os itens se alinham na vertical do ultimo para o primeiro*/
+    /*flex-direction: row; os itens se alinham na horizontal*/
+    /*flex-direction: row-reverse; os itens se alinham na horizontal, do ultimo ao primeiro*/
+}
+
+#container_ex1 .tamanho {
+    width: 80px;
+    height: 80px;
+}
+
+#container_ex1 .filho1 {
+    background-color: aqua;
+}
+#container_ex1 .filho2 {
+    background-color: brown;
+}
+#container_ex1 .filho3 {
+    background-color: chartreuse;
+}
+#container_ex1 .filho4 {
+    background-color: darkmagenta;
+}
+#container_ex1 .filho5 {
+    background-color: darkseagreen;
+}
