@@ -1,0 +1,83 @@
+body {
+    background-color: cadetblue;
+}
+
+#container_ex7 {
+    background-color: antiquewhite;
+    width: 600px;
+    display: flex;
+}
+
+#container_ex7 .filho1 {
+    background-color: chocolate;
+    flex-grow: 1; /*define o tamanho do item na linha*/
+}
+#container_ex7 .filho2 {
+    background-color: chartreuse;
+    flex-grow: 2;
+}
+#container_ex7 .filho3 {
+    background-color: blueviolet;
+    flex-grow: 1;
+}
+
+
+
+#container_ex8 {
+    background-color: antiquewhite;
+    width: 40%;
+    height: 500px;
+    display: flex;
+}
+
+#container_ex8 .filho1 {
+    background-color: blueviolet;
+    flex-basis: 200px;
+    flex-shrink: 2; /*é usado para fazer elementos caberem no pai, ele encolhe os itens na proporção informada*/
+}
+#container_ex8 .filho2 {
+    background-color: cyan;
+    flex-basis: 200px; /*define um tamanho padrão para o elemento*/
+    flex-shrink: 1;
+}
+#container_ex8 .filho3 {
+    background-color: gold;
+    flex-basis: 200px;
+    flex-shrink: 0;
+}
+
+
+
+
+#container_ex9 {
+    background-color: antiquewhite;
+    display: flex;
+    height: 500px;
+}
+
+#container_ex9 .filho1 {
+    background-color: chocolate;
+    order: 4; /*é responsável por alterar a ordem em que o item aparece*/
+    align-self: flex-start ;
+    height: 30px;
+    width: 30px;
+}
+#container_ex9 .filho2 {
+    background-color: crimson;
+    height: 30px;
+    width: 30px;
+}
+#container_ex9 .filho3 {
+    background-color: darkgreen;
+    align-self: center;
+    order: 1;
+    height: 30px;
+    width: 30px;
+}
+#container_ex9 .filho4 {
+    background-color: dodgerblue;
+    align-self: flex-end; /*altera a posição dos itens na vertical*/
+    height: 30px;
+    width: 30px;
+}
+

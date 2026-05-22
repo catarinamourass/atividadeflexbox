@@ -7,10 +7,8 @@ body {
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    /*justify-content: center; todos os itens ficaram centralizados no pai e com quebra de texto (wrap)*/
-    /*justify-content: space-between; os itens são distribuidos igulmente no pai, enconstando na borda, e com quebra de texto (wrap)*/
-    align-content: center;
-
+    /*justify-content: space-between; os itens foram divididos de forma igual n linha (espaçamento) e o primeiro e ultimo ficam frudados na margem*/
+    /*align-content: center; ele alinha os itens no meio do pai, mas nesse caso nao tem espaço (altura) suficiente para isso*/
 }
 
 #container_ex5 .filho1 {
@@ -63,3 +61,47 @@ body {
     width: 120px;
     height: 120px;
 }
+
+
+
+#container_ex6 {
+    background-color: antiquewhite;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /*define um espaçamento (como ruas) entre os itens*/
+    
+}
+
+#container_ex6 .filho1 {
+    background-color: chartreuse;
+    width: 120px;
+    height: 120px;
+}
+#container_ex6 .filho2 {
+    background-color: darkorchid;
+    width: 120px;
+    height: 120px;
+}
+#container_ex6 .filho3 {
+    background-color: darksalmon;
+    width: 120px;
+    height: 120px;
+}
+#container_ex6 .filho4 {
+    background-color: mediumvioletred;
+    width: 120px;
+    height: 120px;
+}
+#container_ex6 .filho5 {
+    background-color: aqua;
+    width: 120px;
+    height: 120px;
+}
+#container_ex6 .filho6 {
+    background-color: forestgreen;
+    width: 120px;
+    height: 120px;
+
+}
+
